@@ -1,0 +1,30 @@
+.my-orders-container {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.my-orders-container h2 {
+  margin-bottom: 25px;
+}
+
+.my-orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #FDFFFF;
+}
+
+.my-orders-table th,
+.my-orders-table td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+}
+
+.my-orders-table th {
+  background-color: #FDFFFF;
+  font-weight: 600;
+}
+
+.my-orders-table tbody tr:hover {
+  background-color: #f8f8f8;
+}

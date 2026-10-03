@@ -1,0 +1,81 @@
+/* Main Food Card */
+.food-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 560px;
+    min-height: 170px;
+    padding: 10px;
+    margin-bottom: 35px;
+    background-color: white;
+}
+
+/* Food Image */
+.food-card img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* Right Side Content */
+.food-content {
+    flex: 1;
+}
+
+/* Food Name + Price + Button */
+.food-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Food Name */
+.food-header h3 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #111;
+}
+
+/* Price */
+.food-header span {
+    color: #d99a2b;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Order Button */
+.food-header button {
+    background-color: #d9a441;
+    color: #111;
+    border: 1px solid #b8862b;
+    border-radius: 5px;
+    padding: 9px 13px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Button Hover */
+.food-header button:hover {
+    background-color: #c58f2c;
+    color: white;
+}
+
+/* Line */
+.food-content hr {
+    margin: 14px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+/* Description */
+.food-content p {
+    margin: 0;
+    color: #777;
+    font-size: 16px;
+    line-height: 1.6;
+}

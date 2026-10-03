@@ -1,0 +1,12 @@
+.user-dashboard p{
+    font-size: 18px;
+
+}
+.user-dashboard{
+    margin-left: 2%;
+}
+button{
+    background-color: #D8A14C;
+    padding: 8px 10px;
+    border-radius: 6px;
+}

@@ -1,0 +1,84 @@
+.event-label{
+    
+     border: 1px solid #d9a14f;
+    border-radius: 30px;
+    width:fit-content;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin: auto;
+
+}
+
+.event-section{
+    margin-top: 14%;
+    text-align: center;
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.category-buttons{
+    display: flex;
+    gap:7%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.category-buttons button{
+    width: 154px;
+    height: 58px;
+    background-color: #fff;
+
+    border: 1px solid #dfa44e;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.category-buttons button:hover{
+    background-color: #d9a14f;
+    color: white;
+}
+
+.category-buttons button.active{
+    background-color: #d9a14f;
+    color: white;
+    border-color: #d9a14f;
+}
+
+.img-size img{
+       height: 330px;
+       width: 320px;
+       border-radius: 10px;
+}
+.gallery-row1{
+    display: flex;
+}
+.gallery-row2{
+    margin-top: 4%;
+    display: flex;
+}
+.heading{
+    margin-top: 6%;
+    text-align: center;
+    margin-bottom:28%;
+    
+}
+.heading h1{
+    font-size: 66px;
+}
+.heading h4 span{
+    color: #c8913d;
+}
+.heading h4 span:hover{
+    color: #a8772d;
+    cursor: pointer;
+}
